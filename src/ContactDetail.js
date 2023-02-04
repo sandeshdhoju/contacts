@@ -41,7 +41,7 @@ const ContactDetail = () => {
                             {data.phone}
                         </Descriptions.Item>
                         <Descriptions.Item label="Website" span={3}>
-                            <a href={data.website}>{data.website}</a>
+                            <a href={`http://${data.website}`}>{data.website}</a>
                         </Descriptions.Item>
                         <Descriptions.Item label="Company" span={3}>
                             <Descriptions bordered>
