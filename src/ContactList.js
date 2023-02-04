@@ -51,7 +51,7 @@ const ContactList = () => {
                     <Typography.Title style={{ textAlign: "center" }}>CONTACT LIST</Typography.Title>
                 </Col>
             </Row>
-            <Row>
+            <Row style={{overflowX: "auto"}}>
                 <Col span={24}>
                     {data && <Table columns={columns} dataSource={data} />}
                 </Col>
